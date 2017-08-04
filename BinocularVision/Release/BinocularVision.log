@@ -1,0 +1,23 @@
+﻿生成启动时间为 2013/7/24 11:19:19。
+     1>项目“E:\PHDinWHU\Projects\QinganYan-BinocularVision13-VC-v2\BinocularVision\BinocularVision.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\BinocularVision.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\MadTurtle\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:/MadTurtle/OpenCV2.4.4/build/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt binovis.cpp stereomatch.cpp
+         binovis.cpp
+         stereomatch.cpp
+     1>stereomatch.cpp(94): warning C4101: “e”: 未引用的局部变量
+     1>stereomatch.cpp(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\MadTurtle\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Lib:
+         D:\MadTurtle\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\PHDinWHU\Projects\QinganYan-BinocularVision13-VC-v2\Release\yqawhu_bv200.lib" /NOLOGO /LTCG Release\binovis.obj
+         Release\stereomatch.obj
+         BinocularVision.vcxproj -> E:\PHDinWHU\Projects\QinganYan-BinocularVision13-VC-v2\Release\yqawhu_bv200.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\BinocularVision.unsuccessfulbuild”。
+         正在对“Release\BinocularVision.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\PHDinWHU\Projects\QinganYan-BinocularVision13-VC-v2\BinocularVision\BinocularVision.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.03
